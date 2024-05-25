@@ -1,0 +1,555 @@
+*{
+    font-family: "Source Sans 3", sans-serif;
+    background-color: rgb(214, 214, 214);
+  }
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+/* Navbar  Css */
+
+.navbar ul {
+    /* justify-content: center; */
+    list-style-type: none;
+    /* padding: 0; */
+    /* margin: 0; */
+    /* display: flex; */
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    /* margin-left: 19px; */
+    color: #8B0000;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar a:hover{
+    color: #8B0000;
+  }
+  
+  .navbar ul li {
+    padding-right: 30px;
+    margin-left: 20px;
+  }
+
+
+  /* img 01 */
+
+  .img-container{
+    /* display: grid; */
+    place-items: center;
+    margin-top: 3%;
+    /* margin-right: 20px; */
+  }
+
+  /* paragraps 01 */
+
+  #paragraps-0 {
+    font-size: 14px;
+    line-height: 1.5em;
+    text-align: center;
+    /* margin-right: 20px; */
+    margin-top: 1%;
+  }
+
+  .reservations{
+    /* margin-left: 39.3rem; */
+    text-align: center;
+    /* margin-right: 20px; */
+    margin-top: 5px;
+  }
+
+  #reservations{
+    color: red;
+  }
+
+  #jpg01{
+    width: 300px;
+    height: 200px;
+  }
+
+  .jpg02 {
+    margin-top: 70px;
+    /* margin-left: 46%; */
+    width: 111px;
+    height: 42px;
+    /* margin-right: 24px; */
+  }
+
+  .jpg02-container{
+    display: grid;
+    place-items: center;
+  }
+  
+  .svgtool {
+    width: 16px;
+    height: 45px;
+    transform: rotate(180deg);
+    /* margin-left: 29.3rem; */
+    /* margin-top: -10%; */
+  }
+
+  .svg-container{
+    display: grid;
+    place-items: center;
+    margin-top: 1.2rem;
+  }
+
+  #food {
+    /* margin-left: 23%; */
+    /* width: 184px; */
+    /* height: 237px; */
+    /* margin-right: 30px; */
+  }
+  
+  #kokteyl {
+    width: 184px;
+    height: 237px;
+    /* margin-left: 30px; */
+  }
+  
+  .png03 {
+    margin-top: 10%;
+  }
+  
+  .menus {
+    font-size: 16px;
+    margin-top: 5%;
+    /* margin-right: 20px; */
+    text-align: center;
+  }
+
+  /* .menus-class{
+    display: flex;
+    justify-content: center;
+  } */
+  
+  .tastingMenu {
+    /* margin-left: 36.4rem; */
+    font-size: 14px;
+    border: 1px solid #323232;
+    height: 29px;
+    /* width: 135%; */
+    text-align: center;
+    line-height: 29px;
+  }
+  
+  .tastingMenu a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .tastingMenu a:hover{
+    color: #8B0000;
+  }
+  
+  .alacarte {
+    /* margin-left: 36.4rem; */
+    font-size: 14px;
+    margin-top: 12px;
+    border: 1px solid #323232;
+    height: 29px;
+    /* width: 135%; */
+    text-align: center;
+    line-height: 29px;
+  }
+  
+  .alacarte a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .alacarte a:hover{
+    color: #8B0000;
+  }
+  
+  .dessert {
+    /* margin-left: 36.4rem; */
+    margin-top: 12px;
+    font-size: 14px;
+    border: 1px solid #323232;
+    height: 29px;
+    /* width: 135%; */
+    text-align: center;
+    line-height: 29px;
+  }
+  
+  .dessert a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .dessert a:hover{
+    color: #8B0000;
+  }
+  
+  .wine {
+    /* margin-left: 36.4rem; */
+    margin-top: 12px;
+    font-size: 14px;
+    border: 1px solid #323232;
+    height: 29px;
+    /* width: 135%; */
+    text-align: center;
+    line-height: 29px;
+  }
+  
+  .wine a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .wine a:hover{
+    color: #8B0000;
+  }
+  
+  .bar {
+    /* margin-left: 36.4rem; */
+    margin-top: 10px;
+    font-size: 14px;
+    border: 1px solid #323232;
+    height: 29px;
+    /* width: 135%; */
+    text-align: center;
+    line-height: 29px;
+  }
+  
+  .bar a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .bar a:hover{
+    color: #8B0000;
+  }
+
+  /* .png03 .menus .kokteyl {
+    padding: 20px;
+    text-align: center;
+    margin: 0; 
+}
+
+.png03 .kokteyl {
+  text-align: center; 
+}
+
+.png033 {
+  max-width: 100%; 
+  height: auto; 
+} */
+
+/* .col-6 {
+  padding-right: 10px; 
+  padding-left: 10px; 
+} */
+
+/* .row {
+  margin-left: -10px; 
+  margin-right: -10px; 
+} */
+
+.kokteyl {
+  margin-top: 3%;
+}
+
+.menu-list{
+  list-style-type: none;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px;
+  margin-top: -25%; */
+  padding-left: 0px !important;
+}
+
+.paragrapseng{
+  font-size: 12px;
+}
+
+/* Media quaries start */
+
+@media screen and (min-width: 720px){
+  #food{
+    width: 100% !important;
+    height: 250px;
+  }
+  #kokteyl{
+    width: 100% !important;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 720px){
+  #food{
+    width: 60% !important;
+    height: 250px;
+  }
+  #kokteyl{
+    width: 60% !important;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  #food{
+    width: 200px !important;
+    height: 250px;
+    margin-right: 0px !important;
+  }
+  #kokteyl{
+    width: 200px !important;
+    height: 250px;
+    margin-left: 0px !important;
+  }
+  .menu-list {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+  }
+}
+
+@media screen and (min-width: 721px) {
+  #food{
+    width: 200px !important;
+    height: 250px;
+  }
+  #kokteyl{
+    width: 200px !important;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 721px) {
+  #food{
+    width: 200px !important;
+    height: 250px;
+  }
+  #kokteyl{
+    width: 200px !important;
+    height: 250px;
+  }
+}
+/* Media quaries and */
+
+/* Notpad start */
+
+.notpad{
+  background-color: white;
+  width: 60%;
+  margin-top: 10%;
+}
+
+#yeni-img-2{
+  background-color: white ;
+  margin-top: 25px;
+}
+
+#reservation-text{
+  background-color: white;
+  margin-top: 2%;
+  font-size: 16px;
+}
+
+#reservation-text i{
+  background-color: white;
+}
+
+#paragraps1{
+  background-color: white;
+  font-size: 13px;
+  color: red;
+}
+
+#linktext1{
+  font-size: 13px;
+  color: red;
+  background-color: white;
+}
+
+#linktext2{
+  font-size: 13px;
+  color: red;
+  background-color: white;
+  /* margin-top: -20px; */
+}
+
+#nokta{
+  font-size: 12px;
+  background-color: white;
+  margin-top: 3%;
+}
+
+#paragraps2{
+  background-color: white;
+  font-size: 13px;
+  color: red;
+  margin-top: 3%;
+}
+
+#linktext3{
+  background-color: white;
+  font-size: 13px;
+  color: red;
+}
+
+#linktext4{
+  background-color: white;
+  font-size: 13px;
+  color: red;
+}
+
+@media screen and (max-width: 767px) {
+  .notpad{
+    width: 100%;
+  }
+}
+
+
+#name{
+  margin-top: 6%;
+  /* margin-left: 2rem; */
+  width: 29rem;
+  height: 2rem;
+  /* border: 1px solid orange; */
+}
+
+#email{
+  margin-top: 5%;
+  /* margin-left: 2rem; */
+  width: 29rem;
+  height: 2rem;
+  /* border: 1px solid orange; */
+}
+
+#number{
+  margin-top: 5%;
+  /* margin-left: 2rem; */
+  width: 29rem;
+  height: 2rem;
+  /* border: 1px solid orange; */
+}
+
+#date{
+  margin-top: 5%;
+  /* margin-left: 2rem; */
+  width: 29rem;
+  height: 2rem;
+  /* border: 1px solid orange; */
+}
+
+#time{
+  margin-top: 5%;
+  /* margin-left: 2rem; */
+  width: 29rem;
+  height: 2rem;
+  /* border: 1px solid orange; */
+}
+
+#kişi{
+  margin-top: 5%;
+  /* margin-left: 2rem; */
+  width: 29rem;
+  height: 2rem;
+  /* border: 1px solid orange; */
+}
+
+#peng{
+  font-size: 12px;
+  text-align: center;
+  background-color: white;
+  margin-top: 4%;
+}
+
+#ptr{
+  font-size: 12px;
+  text-align: center;
+  background-color: white;
+  margin-top: -10px;
+  font-style: italic;
+}
+
+#checkbox{
+  /* margin-left: 11rem; */
+  width: 20px;
+  height: 20px;
+  margin-top: 2%;
+}
+
+#checkbox-text{
+  /* margin-left: 39%; */
+  font-size: 12px;
+  background-color: white;
+  /* margin-top: -1.8rem; */
+}
+
+#send{
+  /* margin-left: 10.6rem; */
+  margin-top: 0.3rem;
+  width:  33%;
+  height: 36px;
+  border: 1px solid black;
+  font-size: 15px;
+}
+
+#send:hover{
+  background-color: white;
+  border: none;
+}
+
+#about{
+  margin-top: 3%;
+  background-color: white;
+}
+
+.materials{
+  background-color: white;
+  font-size: 14px;
+  margin-top: 5%;
+}
+
+.materials li{
+  background-color: white;
+}
+
+.materials-tr{
+  background-color: white;
+  font-size: 14px;
+}
+
+.materials-tr li{
+  background-color: white;
+}
+
+#Tr{
+  background-color: white;
+  color: red;
+}
+
+#eng{
+  background-color: white;
+  color: blue;
+}
+
+.u-tt{
+  background-color: white;
+  color: red;
+}
+
+.pr-1{
+  font-size: 14px;
+  margin-top: 10%;
+}
+
+.pr-2{
+  font-size: 14px;
+  margin-top: 4%;
+}
+
