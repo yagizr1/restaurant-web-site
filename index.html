@@ -15,7 +15,7 @@
 </head>
 <body>
     <section>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,13 +23,13 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav me-auto d-flex mx-auto my-3">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#navbar">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Reservations</a>
+                <a class="nav-link" href="#reservation-text">Reservations</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Menu</a>
+                <a class="nav-link" href="#menus">Menu</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Gallery</a>
@@ -43,7 +43,7 @@
       </nav>
     
 
-    <div class="container-fluid">
+    <div class="container-fluid" style="padding-bottom: 50px;">
         <div class="row">
             <div class="col-12 d-flex justify-content-center">
                 <img src="img/IMG_5998.JPG" alt="" width="" height="" id="jpg01">
@@ -58,76 +58,65 @@
                 </p>
             </div>
         </div>
-    </div>
 
-   <div class="reservations">
-    <div class="row">
-        <div class="col">
-            <a id="reservations" href="reservations">Reservations</a>
+        <div class="reservations">
+         <div class="row">
+             <div class="col">
+                 <a id="reservations" href="reservations">Reservations</a>
+             </div>
+         </div>
         </div>
-    </div>
-   </div>
-
-   <div class="jpg02-container">
-    <div class="row">
-        <div class="col">
-            <div class="jpg02">
-                <img src="img/yeni.webp" alt="">
-            </div>
-        </div>
-    </div>
-   </div>
-
-   <div class="svg-container">
-    <div class="row">
-        <div class="col"> 
-                <svg
-                class="svgtool"
-                preserveAspectRatio="none"
-                data-bbox="72.5 20 55 160"
-                viewBox="72.5 20 55 160"
-                height=""
-                width=""
-                xmlns="http://www.w3.org/2000/svg"
-                data-type="shape"
-                role="presentation"
-                aria-hidden="true"
-              >
-                <g>
-                  <path
-                    d="M127.5 49.186L100 20 72.5 49.186l2.957 2.808 22.116-23.476V180h4.854V28.518l22.116 23.476 2.957-2.808z"
-                  ></path>
-                </g>
-              </svg>
-        </div>
-    </div>
-   </div>
-
-   <div class="menus-class container">
-    <div class="row">
-        <div class="col-xs-12 col-md-4">
-            <img id="food" src="img/a45314f8-eed5-4110-8662-a55764925e09.JPG" alt="Et Yemeği" style="margin-top: 20px;" class="d-flex mx-auto"/>
+        
+        
+        <div class="svg-container">
+         <div class="row">
+             <div class="col"> 
+                     <svg
+                     class="svgtool"
+                     preserveAspectRatio="none"
+                     data-bbox="72.5 20 55 160"
+                     viewBox="72.5 20 55 160"
+                     height=""
+                     width=""
+                     xmlns="http://www.w3.org/2000/svg"
+                     data-type="shape"
+                     role="presentation"
+                     aria-hidden="true"
+                   >
+                     <g>
+                       <path
+                         d="M127.5 49.186L100 20 72.5 49.186l2.957 2.808 22.116-23.476V180h4.854V28.518l22.116 23.476 2.957-2.808z"
+                       ></path>
+                     </g>
+                   </svg>
+             </div>
+         </div>
         </div>
 
-        <div class="col-xs-12 col-md-4">
-            <ul class="menu-list">
-                <li class="menus"><p>menus</p></li>
-                <li class="tastingMenu"><a href="pdf/tadım yeni lokanta 11.pdf">tasting Menu / tadım</a></li>
-                <li class="alacarte"><a href="pdf/alacarte yeni lokanta 1.pdf">a la carte</a></li>
-                <li class="dessert"><a href="pdf/tatlı yeni lokanta.pdf">dessert / tatlı</a></li>
-                <li class="wine"><a href="pdf/şarap yenilokanta 11.pdf">wine / şarap</a></li>
-                <li class="bar"><a href="pdf/kokteyl yeni lokanta.pdf">bar</a></li>
-            </ul>
-        </div>
+        <div class="menus-class">
+          <div class="row">
+              <div class="col-xs-12 col-md-4">
+                  <img id="food" src="img/a45314f8-eed5-4110-8662-a55764925e09.JPG" alt="Et Yemeği" style="margin-top: 20px;" class="d-flex mx-auto"/>
+              </div>
+      
+              <div class="col-xs-12 col-md-4">
+                  <ul class="menu-list">
+                      <li id="menus"><p>menus</p></li>
+                      <li class="tastingMenu"><a href="pdf/BREAKFAST (1).pdf">Breakfast and Pizza</a></li>
+                      <li class="alacarte"><a href="pdf/MEZE AND SALATA (3).pdf">Mezes and Salads</a></li>
+                      <li class="dessert"><a href="pdf/TURŠKI TOPLI PREDJELA (1).pdf">TURŠKI TOPLI PREDJELA</a></li>
+                      <li class="wine"><a href="pdf/GLAVNO JELO (2).pdf">Glavno Jelo and Dessert</a></li>
+                      <li class="bar"><a href="pdf/coctails (1).pdf">Coctails</a></li>
+                  </ul>
+              </div>
+      
+              <div class="col-xs-12 col-md-4">
+                  <img id="kokteyl" src="img/IMG_4779.jpg" alt="Kokteyl" style="margin-top: 20px;" class="d-flex mx-auto">
+              </div>
+          </div>
+      </div> 
 
-        <div class="col-xs-12 col-md-4">
-            <img id="kokteyl" src="img/IMG_4779.jpg" alt="Kokteyl" style="margin-top: 20px;" class="d-flex mx-auto">
-        </div>
-    </div>
-</div> 
-
-<div class="container">
-    <div class="row">
+      <div class="row">
         <div class="col-xs-12 text-center">
             <div class="paragrapseng">
                 <p>menu items and prices are subject to change. <br>
@@ -137,107 +126,144 @@
             </div>
         </div>
     </div>
-</div>
 
-<div class="container">
-  <div class="row">
-    <div class="col d-flex justify-content-center">
-      <div class="notpad text-center ">
-        <img id="yeni-img-2" src="img/yeni2.webp" alt="">
-
-        <p id="reservation-text">reservation request <br>
-          <i>rezervasyon isteği</i></p>
-
-          <p id="paragraps1">
-            kindly fill the form and wait for confirmation; <br />
-            requests received by 6pm will be replied on the same day. <br />
-            requests received after 6pm on saturday and on sunday will <br />
-            be replied on monday.
-           </p>
-
-           <u id="linktext1">
-            *please check your spam and junk mail folders.
-          </u>
-          <br/>
-    
-          <u id="linktext2"
-          >*please write your phone number with the country code
-          </u>
-
-          <p id="nokta">•••</p>
-
-          <p id="paragraps2">
-            lütfen formu doldurun ve onayınızı bekleyin; <br />
-            saat 18'e kadar ulaşan talepler aynı gün cevaplanacaktır. <br />
-            cumartesi 18'den sonra ve pazar günü ulaşan talepler, <br />
-            pazartesi günü cevaplanacaktır.</p>
-
-            <u id="linktext3">*lütfen spam dosyanızı kontrol ediniz.</u> <br/>
-            <u id="linktext4">*telefon numaranızı lütfen eksiksiz yazın</u> <br>
-
-            <input id="name" type="text" placeholder="Name / İsim">
-            <input id="email" type="email" placeholder="E-mail">
-            <input id="number" type="text" placeholder="Country code + Phone number / Telefon">
-            <input id="date" type="text" class="rWPAPu has-custom-focus wixui-date-picker__input" placeholder="date / tarih" required="" value="">
-            <select id="time" required="" class="wixui-time-picker__input"><option value="" disabled="" class="TimePickerDropdown1277584979__dummyOption" selected="">Time</option><option value="12:00">12:00</option><option value="12:15">12:15</option><option value="12:30">12:30</option><option value="12:45">12:45</option><option value="13:00">13:00</option><option value="13:15">13:15</option><option value="13:30">13:30</option><option value="13:45">13:45</option><option value="14:00">14:00</option><option value="14:15">14:15</option><option value="14:30">14:30</option><option value="14:45">14:45</option><option value="15:00">15:00</option><option value="17:00">17:00</option><option value="17:15">17:15</option><option value="17:30">17:30</option><option value="17:45">17:45</option><option value="18:00">18:00</option><option value="18:15">18:15</option><option value="18:30">18:30</option><option value="18:45">18:45</option><option value="19:00">19:00</option><option value="19:15">19:15</option><option value="19:30">19:30</option><option value="19:45">19:45</option><option value="20:00">20:00</option><option value="20:15">20:15</option><option value="20:30">20:30</option><option value="20:45">20:45</option><option value="21:00">21:00</option><option value="21:15">21:15</option><option value="21:30">21:30</option><option value="21:45">21:45</option><option value="22:00">22:00</option></select>
-            <select id="kişi" id="collection_comp-lchh9evw" data-testid="select-trigger" required="" aria-required="true"><option value="" disabled="" class="R4tv1w U5WS_f" selected="">group size / kişi sayısı</option><option value="1" class="R4tv1w" aria-selected="false">1</option><option value="2" class="R4tv1w" aria-selected="false">2</option><option value="3" class="R4tv1w" aria-selected="false">3</option><option value="4" class="R4tv1w" aria-selected="false">4</option><option value="5" class="R4tv1w" aria-selected="false">5</option><option value="6" class="R4tv1w" aria-selected="false">6</option><option value="7" class="R4tv1w" aria-selected="false">7</option><option value="8" class="R4tv1w" aria-selected="false">8</option><option value="9" class="R4tv1w" aria-selected="false">9</option><option value="10" class="R4tv1w" aria-selected="false">10</option></select>
-
-
-            <p id="peng">groups of 5 and more guests are accommodated with tasting menus</p>
-
-            <p id="ptr">5 kişi ve üzerindeki gruplar sadece tadım menüleriyle ağırlanmaktadır</p>
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+        <div class="notpad text-center ">
+          <img id="yeni-img-2" src="img/yeni2.webp" alt="">
+  
+          <p id="reservation-text">Reservation request <br>
+            <i>Rezervasyon isteği</i></p>
+  
+            <p id="paragraps1">
+              kindly fill the form and wait for confirmation; <br />
+              requests received by 6pm will be replied on the same day. <br />
+              requests received after 6pm on saturday and on sunday will <br />
+              be replied on monday.
+             </p>
+  
+             <u id="linktext1">
+              *please check your spam and junk mail folders.
+            </u>
+            <br/>
       
-            <input type="checkbox" id="checkbox">
-            
-            <p id="checkbox-text">tasting menu requested <br>
-            tadım menüsü isteniyor</p>
-      
-            <button id="send">send / gönder</button>
-      
-      
-            <p id="about">about bookings / rezervasyonlarla  ilgili</p>
-
-            <p id="eng">English / Eng</p>
-      
-            <ul class="materials">
-              <li class="li-cuantum">Kindly wait for a confirmation email about your reservation. <u class="u-tt">Please check your spam box</u> or contact us if needed.</li>
-              <li>Reservation requests received by 6pm will be replied on the same day (Sundays); others will be replied on the next day.</li>
-              <li>Requests received after 6pm on Saturday and on Sunday will be replied on Monday.</li>
-              <li>Groups of 5 and more guests are accommodated only with tasting menus.</li>
-              <li>Tasting menus are kindly asked to be ordered for the whole table and for each guest in the group.</li>
-              <li>Maximum party size is 10 guests.</li>
-              <li>Specific table requests cannot be guaranteed.</li>
-              <li>Unfortunately, we are not able to accept babies and children under the age of 7 for the dinner service.</li>
-            </ul>
-
-            <p id="Tr">Turkish / TR </p>
-      
-            <ul class="materials-tr">
-              <li class="li-cuantum">​Lütfen rezervasyonunuzla ilgili onay mesajını bekleyin; gerekirse <u class="u-tt">spam kutunuzu kontrol edin</u> veya bizi arayın.</li>
-              <li>Saat 18'e kadar gelen rezervasyon taleplerini gün içinde cevaplıyoruz (Pazar günleri hariç); diğerleri ise ertesi gün cevaplanıyor.</li>
-              <li>Cumartesi 18'den sonra ve Pazar günü ulaşan talepler, Pazartesi günü cevaplanacaktır.</li>
-              <li>5 kişi ve üzerindeki grupları sadece tadım menülerimizle ağırlayabiliyoruz. </li>
-              <li>Tadım menüleri masanın tamamı için sunulmaktadır.</li>
-              <li>10 kişiden büyük gruplar için rezervasyon yapamıyoruz.</li>
-              <li>Özel masa tercihlerini garanti edemiyoruz.</li>
-              <li>Akşam servisimiz 7 yaşından küçükler için maalesef uygun değildir; anlayışınız için teşekkür ederiz.</li>
-            </ul>
-          </div>
+            <u id="linktext2"
+            >*please write your phone number with the country code
+            </u>
+  
+            <p id="nokta">•••</p>
+  
+            <p id="paragraps2">
+              lütfen formu doldurun ve onayınızı bekleyin; <br />
+              saat 18'e kadar ulaşan talepler aynı gün cevaplanacaktır. <br />
+              cumartesi 18'den sonra ve pazar günü ulaşan talepler, <br />
+              pazartesi günü cevaplanacaktır.</p>
+  
+              <u id="linktext3">*lütfen spam dosyanızı kontrol ediniz.</u> <br/>
+              <u id="linktext4">*telefon numaranızı lütfen eksiksiz yazın</u> <br>
+  
+              <input id="name" type="text" placeholder="Name / İsim">
+              <input id="email" type="email" placeholder="E-mail">
+              <input id="number" type="text" placeholder="Country code + Phone number / Telefon">
+              <input id="date" type="text" class="rWPAPu has-custom-focus wixui-date-picker__input" placeholder="date / tarih" required="" value="">
+              <select id="time" required="" class="wixui-time-picker__input"><option value="" disabled="" class="TimePickerDropdown1277584979__dummyOption" selected="">Time</option><option value="12:00">12:00</option><option value="12:15">12:15</option><option value="12:30">12:30</option><option value="12:45">12:45</option><option value="13:00">13:00</option><option value="13:15">13:15</option><option value="13:30">13:30</option><option value="13:45">13:45</option><option value="14:00">14:00</option><option value="14:15">14:15</option><option value="14:30">14:30</option><option value="14:45">14:45</option><option value="15:00">15:00</option><option value="17:00">17:00</option><option value="17:15">17:15</option><option value="17:30">17:30</option><option value="17:45">17:45</option><option value="18:00">18:00</option><option value="18:15">18:15</option><option value="18:30">18:30</option><option value="18:45">18:45</option><option value="19:00">19:00</option><option value="19:15">19:15</option><option value="19:30">19:30</option><option value="19:45">19:45</option><option value="20:00">20:00</option><option value="20:15">20:15</option><option value="20:30">20:30</option><option value="20:45">20:45</option><option value="21:00">21:00</option><option value="21:15">21:15</option><option value="21:30">21:30</option><option value="21:45">21:45</option><option value="22:00">22:00</option></select>
+              <select id="kişi" id="collection_comp-lchh9evw" data-testid="select-trigger" required="" aria-required="true"><option value="" disabled="" class="R4tv1w U5WS_f" selected="">group size / kişi sayısı</option><option value="1" class="R4tv1w" aria-selected="false">1</option><option value="2" class="R4tv1w" aria-selected="false">2</option><option value="3" class="R4tv1w" aria-selected="false">3</option><option value="4" class="R4tv1w" aria-selected="false">4</option><option value="5" class="R4tv1w" aria-selected="false">5</option><option value="6" class="R4tv1w" aria-selected="false">6</option><option value="7" class="R4tv1w" aria-selected="false">7</option><option value="8" class="R4tv1w" aria-selected="false">8</option><option value="9" class="R4tv1w" aria-selected="false">9</option><option value="10" class="R4tv1w" aria-selected="false">10</option></select>
+  
+  
+              <p id="peng">groups of 5 and more guests are accommodated with tasting menus</p>
+  
+              <p id="ptr">5 kişi ve üzerindeki gruplar sadece tadım menüleriyle ağırlanmaktadır</p>
+        
+              <input type="checkbox" id="checkbox">
+              
+              <p id="checkbox-text">tasting menu requested <br>
+              tadım menüsü isteniyor</p>
+        
+              <button id="send">Send / Gönder</button>
+        
+        
+              <p id="about">About bookings / Rezervasyonlarla  İlgili</p>
+        
+              <ul class="materials">
+                <li class="li-cuantum">Kindly wait for a confirmation email about your reservation. <u class="u-tt">Please check your spam box</u> or contact us if needed.</li>
+                <li>Reservation requests received by 6pm will be replied on the same day (Sundays); others will be replied on the next day.</li>
+                <li>Requests received after 6pm on Saturday and on Sunday will be replied on Monday.</li>
+                <li>Groups of 5 and more guests are accommodated only with tasting menus.</li>
+                <li>Tasting menus are kindly asked to be ordered for the whole table and for each guest in the group.</li>
+                <li>Maximum party size is 10 guests.</li>
+                <li>Specific table requests cannot be guaranteed.</li>
+                <li>Unfortunately, we are not able to accept babies and children under the age of 7 for the dinner service.</li>
+              </ul>
+        
+              <ul class="materials-tr">
+                <li class="li-cuantum">​Lütfen rezervasyonunuzla ilgili onay mesajını bekleyin; gerekirse <u class="u-tt">spam kutunuzu kontrol edin</u> veya bizi arayın.</li>
+                <li>Saat 18'e kadar gelen rezervasyon taleplerini gün içinde cevaplıyoruz (Pazar günleri hariç); diğerleri ise ertesi gün cevaplanıyor.</li>
+                <li>Cumartesi 18'den sonra ve Pazar günü ulaşan talepler, Pazartesi günü cevaplanacaktır.</li>
+                <li>5 kişi ve üzerindeki grupları sadece tadım menülerimizle ağırlayabiliyoruz. </li>
+                <li>Tadım menüleri masanın tamamı için sunulmaktadır.</li>
+                <li>10 kişiden büyük gruplar için rezervasyon yapamıyoruz.</li>
+                <li>Özel masa tercihlerini garanti edemiyoruz.</li>
+                <li>Akşam servisimiz 7 yaşından küçükler için maalesef uygun değildir; anlayışınız için teşekkür ederiz.</li>
+              </ul>
+            </div>
+        </div>
       </div>
+
+
+
+      <div class="row contact">
+        <div class="col-xs-12 col-md-4 d-flex justify-content-center contact-text">
+          <div class="paragraflar">
+            <p class="pr-1">kumbaracı yokuşu 66/b <br>
+    
+              beyoğlu, 34433 istanbul</p>
+    
+              <i class="fa-solid fa-location-dot"></i>
+    
+              <p class="pr-2">
+                +90-212-292-2550 <br>
+    
+    info@yenilokanta.com
+              </p>
+              <!-- <div class="img-sl">
+              <img src="img/DCFE41BA-90B8-4355-AA91-4F9DC6CC5660.JPG" alt="" id="img-sl">
+            </div> -->
+          </div>
+        </div>
+        
+        
+        <div class="col-xs-12 col-md-4 d-flex justify-content-center contact-img">
+    
+          <!-- <div class="img-sl"> -->
+            <img src="img/DCFE41BA-90B8-4355-AA91-4F9DC6CC5660.JPG" alt="">
+          <!-- </div> -->
+        </div>
+  
+        <div class="col-xs-12 col-md-4 d-flex justify-content-center contact-text2">
+          <div class="paragraflar">
+            <p class="pr-1">kumbaracı yokuşu 66/b <br>
+    
+              beyoğlu, 34433 istanbul</p>
+    
+              <i class="fa-solid fa-location-dot"></i>
+    
+              <p class="pr-2">
+                +90-212-292-2550 <br>
+    
+    info@yenilokanta.com
+              </p>
+              <!-- <div class="img-sl">
+              <img src="img/DCFE41BA-90B8-4355-AA91-4F9DC6CC5660.JPG" alt="" id="img-sl">
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+
+
+
     </div>
   </div>
-</div>
-
-<div class="container">
-  <div class="row">
-    <div class="col">
-      
-    </div>
-  </div>
-</div>
-   
-
-
 
 
 

@@ -1,0 +1,40 @@
+*{
+    padding: 5px;
+}
+
+.menu-1{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.img-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.m1-altname{
+    font-size: 25px;
+}
+
+.m1-fiyat{
+    margin-left: 40%;
+    margin-top: -9%;
+}
+
+.m1-altaçıklama{
+    font-size: 17px;
+    margin-top: -2%;
+}
+
+#m1-png{
+    margin-left: 60%;
+    margin-top: -26%;
+}
+
+@media screen and (max-width: 1650px) {
+    .menu-1{
+        width: 50%;
+    }
+
+  }

@@ -1,6 +1,7 @@
 *{
     font-family: "Source Sans 3", sans-serif;
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(243, 243, 243);
+    overflow-x: hidden;
   }
 
 html, body {
@@ -15,13 +16,8 @@ html, body {
 .navbar ul {
     /* justify-content: center; */
     list-style-type: none;
-    /* padding: 0; */
-    /* margin: 0; */
-    /* display: flex; */
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 40px;
-    /* margin-left: 19px; */
     color: #8B0000;
   }
   
@@ -36,7 +32,6 @@ html, body {
   
   .navbar ul li {
     padding-right: 30px;
-    margin-left: 20px;
   }
 
 
@@ -73,6 +68,8 @@ html, body {
   #jpg01{
     width: 300px;
     height: 200px;
+    margin-top: 2%;
+    border: 6px solid white;
   }
 
   .jpg02 {
@@ -81,6 +78,7 @@ html, body {
     width: 111px;
     height: 42px;
     /* margin-right: 24px; */
+    /* border: 1px solid white; */
   }
 
   .jpg02-container{
@@ -90,38 +88,36 @@ html, body {
   
   .svgtool {
     width: 16px;
-    height: 45px;
+    height: 55px;
     transform: rotate(180deg);
     /* margin-left: 29.3rem; */
-    /* margin-top: -10%; */
+    /* margin-top: %; */
   }
 
   .svg-container{
     display: grid;
     place-items: center;
-    margin-top: 1.2rem;
+    margin-top: 2%;
   }
 
-  #food {
-    /* margin-left: 23%; */
-    /* width: 184px; */
-    /* height: 237px; */
-    /* margin-right: 30px; */
+  #food{
+    border: 6px solid white;
   }
   
   #kokteyl {
     width: 184px;
     height: 237px;
     /* margin-left: 30px; */
+    border: 6px solid white;
   }
   
   .png03 {
     margin-top: 10%;
   }
   
-  .menus {
+  #menus {
     font-size: 16px;
-    margin-top: 5%;
+    margin-top: 10%;
     /* margin-right: 20px; */
     text-align: center;
   }
@@ -138,7 +134,10 @@ html, body {
     height: 29px;
     /* width: 135%; */
     text-align: center;
-    line-height: 29px;
+    /* line-height: 29px; */
+    align-items: center !important;
+    display: flex;
+    justify-content: center
   }
   
   .tastingMenu a{
@@ -158,7 +157,10 @@ html, body {
     height: 29px;
     /* width: 135%; */
     text-align: center;
-    line-height: 29px;
+    /* line-height: 29px; */
+    align-items: center !important;
+    display: flex;
+    justify-content: center
   }
   
   .alacarte a{
@@ -178,7 +180,9 @@ html, body {
     height: 29px;
     /* width: 135%; */
     text-align: center;
-    line-height: 29px;
+    align-items: center !important;
+    display: flex;
+    justify-content: center
   }
   
   .dessert a{
@@ -198,7 +202,9 @@ html, body {
     height: 29px;
     /* width: 135%; */
     text-align: center;
-    line-height: 29px;
+    align-items: center !important;
+    display: flex;
+    justify-content: center
   }
   
   .wine a{
@@ -218,7 +224,9 @@ html, body {
     height: 29px;
     /* width: 135%; */
     text-align: center;
-    line-height: 29px;
+    align-items: center !important;
+    display: flex;
+    justify-content: center
   }
   
   .bar a{
@@ -229,31 +237,6 @@ html, body {
   .bar a:hover{
     color: #8B0000;
   }
-
-  /* .png03 .menus .kokteyl {
-    padding: 20px;
-    text-align: center;
-    margin: 0; 
-}
-
-.png03 .kokteyl {
-  text-align: center; 
-}
-
-.png033 {
-  max-width: 100%; 
-  height: auto; 
-} */
-
-/* .col-6 {
-  padding-right: 10px; 
-  padding-left: 10px; 
-} */
-
-/* .row {
-  margin-left: -10px; 
-  margin-right: -10px; 
-} */
 
 .kokteyl {
   margin-top: 3%;
@@ -271,6 +254,7 @@ html, body {
 
 .paragrapseng{
   font-size: 12px;
+  /* margin-top: -20px; */
 }
 
 /* Media quaries start */
@@ -337,6 +321,17 @@ html, body {
     height: 250px;
   }
 }
+@media screen and (min-width: 768px) {
+  .contact .contact-text{
+    justify-content: end !important;
+  }
+  .contact .contact-img{
+    justify-content: center !important;
+  }
+  .contact .contact-text2{
+    justify-content: start !important;
+  }
+}
 /* Media quaries and */
 
 /* Notpad start */
@@ -354,8 +349,8 @@ html, body {
 
 #reservation-text{
   background-color: white;
-  margin-top: 2%;
-  font-size: 16px;
+  margin-top: %;
+  font-size: 20px;
 }
 
 #reservation-text i{
@@ -412,13 +407,18 @@ html, body {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .notpad{
+    width: 100%;
+  }
+}
 
 #name{
   margin-top: 6%;
   /* margin-left: 2rem; */
   width: 29rem;
   height: 2rem;
-  /* border: 1px solid orange; */
+  border: 1px solid black;
 }
 
 #email{
@@ -426,7 +426,7 @@ html, body {
   /* margin-left: 2rem; */
   width: 29rem;
   height: 2rem;
-  /* border: 1px solid orange; */
+  border: 1px solid black;
 }
 
 #number{
@@ -434,7 +434,7 @@ html, body {
   /* margin-left: 2rem; */
   width: 29rem;
   height: 2rem;
-  /* border: 1px solid orange; */
+  border: 1px solid black;
 }
 
 #date{
@@ -442,7 +442,7 @@ html, body {
   /* margin-left: 2rem; */
   width: 29rem;
   height: 2rem;
-  /* border: 1px solid orange; */
+  border: 1px solid black;
 }
 
 #time{
@@ -450,7 +450,7 @@ html, body {
   /* margin-left: 2rem; */
   width: 29rem;
   height: 2rem;
-  /* border: 1px solid orange; */
+  border: 1px solid black;
 }
 
 #kişi{
@@ -458,7 +458,7 @@ html, body {
   /* margin-left: 2rem; */
   width: 29rem;
   height: 2rem;
-  /* border: 1px solid orange; */
+  border: 1px solid black;
 }
 
 #peng{
@@ -505,8 +505,9 @@ html, body {
 }
 
 #about{
-  margin-top: 3%;
+  margin-top: 6%;
   background-color: white;
+  font-size: 16px;
 }
 
 .materials{
@@ -528,16 +529,6 @@ html, body {
   background-color: white;
 }
 
-#Tr{
-  background-color: white;
-  color: red;
-}
-
-#eng{
-  background-color: white;
-  color: blue;
-}
-
 .u-tt{
   background-color: white;
   color: red;
@@ -545,11 +536,33 @@ html, body {
 
 .pr-1{
   font-size: 14px;
-  margin-top: 10%;
+  /* margin-left: 25%; */
+  margin-top: 5%;
 }
 
 .pr-2{
   font-size: 14px;
-  margin-top: 4%;
+  /* margin-left: 25%; */
+  margin-top: 7%;
 }
 
+#img-sl{
+  width: 15%;
+  height: 20%;
+  border: 6px solid white;
+}
+
+.img-sl{
+  text-align: center;
+  margin-top: -17%;
+}
+
+.contact {
+  margin-top: 50px !important;
+  padding: 0px 20%;
+}
+
+
+.contact img {
+  width: 150px;
+}
